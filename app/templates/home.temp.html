@@ -35,13 +35,15 @@
      
       </div>
       <div class="media-content">
-        <p class="title is-5">{{post.name}}</p>
+        <p class="title is-5">{{post.name}}    <span class=" is-pulled-rigth"><a href="/#/post/{{post._id}}"  ><i class="fa fa-heart-o small_hearts" aria-hidden="true"></i></a> <span class="many_likes">{{post.likes}}</span></span></p>
         <p class="subtitle is-6">@johnsmith</p>
+
       </div>
     </div>
 
     <div class="content">
        {{post.desc}}
+
        <a href="#">@bulmaio</a>.
       <a href="#">#css</a> <a href="#">#responsive</a>
       <br>
