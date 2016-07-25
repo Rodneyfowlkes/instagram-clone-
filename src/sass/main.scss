@@ -2,12 +2,23 @@
 
 
 .Profile_img{
-    background-color: grey;
+   
     border-radius: 100%;
-    height: 100px;
-    width:100px;
+    height: 200px;
+    width:200px;
     margin:auto;
 
+}
+.Pro_img{
+   
+    border-radius: 100%;
+    height: 200px;
+    width:200px;
+
+}
+
+.image{
+    font-size: 140%;
 }
 
 .headcol{
@@ -17,10 +28,46 @@
 }
 .fa-camera{
    color: grey;
+   margin-left: 4%;
 }
 
-.butt{    
+.grams{    
 
-	
+	width: 270px;
+ 
+    height: 330px;
 
+
+}
+
+.fa-heart-o{
+    font-size: 500%;
+}
+
+.img_size{
+    
+    width: 280px;
+    height: 280px;
+
+   
+
+}
+
+.ga{
+     // width:80%;
+     // height: 80%;
+}
+.holder{
+    width: 80%;
+    height: 300px;
+}
+.small_title{
+    width: 300px;
+}
+.mar{
+    margin-bottom: 5%;
+}
+
+.text1{
+        text-overflow: ellipsis;
 }

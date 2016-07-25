@@ -1,24 +1,64 @@
-      <p>{{5 + 5}}</p>
-    <div class="columns">
-  <div class="column ">
-    <div class="container">kdsfjghsldfkghj <small class="is-pulled-right">31m</small></div>
+
+    <div class="container">
+<!--    <span>{{cow}}</span> -->
+    <div class="columns" ng-repeat="row in cow">
+
+  
+  <div class="column" ng-repeat="post in row">
+<!-- <div class="box grams">
+    <div class="container"> {{post.name}} <small class="is-pulled-right">31m</small></div>
   <figure class="image is-square">
-  <img src="http://placehold.it/128x128">
+  <img class="img_size" src="{{post.url}}">
 </figure>
-      <p class="notification is-info">
-      
-    </p>
+
+    <div class="box text1" style="text-overflow: ellipsis;">
+      {{post.desc}} <a href="#">@bulmaio</a>.
+      <a href="#">#css</a> <a href="#">#responsive</a>
+      <br>
+      <small>11:09 PM - 1 Jan 2016</small>
+    </div>
+  </div> -->
+    <div class="container">
+    <span class="small_title">{{post.name}} <small class="is-pulled-right">31m</small></span>
+    <div class="card">
+
+  <div class="card-image">
+   <a href="/#/post/{{post._id}}">
+    <figure class="image is-4by3">
+      <img src="{{post.url}}" alt="">
+    </figure>
+    </a>
   </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+     
+      </div>
+      <div class="media-content">
+        <p class="title is-5">{{post.name}}</p>
+        <p class="subtitle is-6">@johnsmith</p>
+      </div>
+    </div>
+
+    <div class="content">
+       {{post.desc}}
+       <a href="#">@bulmaio</a>.
+      <a href="#">#css</a> <a href="#">#responsive</a>
+      <br>
+      <small>11:09 PM - 1 Jan 2016</small>
+    </div>
+  </div>
+</div>
+
+</div>
 
 
 
-  <div class="column">
-    Second column
-  </div>
-  <div class="column">
-    Third column
-  </div>
-  <div class="column">
-    Fourth column
-  </div>
+
+
+</div>
+
+
+
 </div>  
+</div>

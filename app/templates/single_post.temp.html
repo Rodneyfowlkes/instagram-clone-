@@ -1,0 +1,11 @@
+
+<div class="holder">
+<h1 class="title">{{post.name}}  <small class="is-pulled-right">31m</small></h1>
+<figure class="image">
+  <img ng-dblclick="addLike(post)" src="{{post.url}}">
+{{post.desc}}
+</figure>
+
+  <span class="hearts"><a ng-click='addLike(post)' ><i class="fa fa-heart-o" aria-hidden="true"></i></a> <span class="many_likes"></span></span>
+
+  </div>
